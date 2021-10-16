@@ -1,0 +1,17 @@
+.banner-img{
+    background-image: url('../../../images/banner/bannerbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.banner-img h1{
+    padding-top: 10%;  
+}
+.input-width{
+    width: 500px;
+}
+@media only screen and (max-width:668px){
+    .input-width{
+        width: 300px;
+    }
+}
